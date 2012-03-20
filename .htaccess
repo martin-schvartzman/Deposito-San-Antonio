@@ -1,0 +1,28 @@
+#deny from all
+Options +FollowSymLinks
+Options +Indexes
+DirectoryIndex index.php
+RewriteEngine on
+#RewriteRule ^album/([1-9]+)/[a-z|1-9|\-]+.html$ \index.php?categoria=album&id=$1
+#RewriteRule ^foto/([1-9]+)/[a-z|1-9|\-]+.html$ \index.php?categoria=foto&id=$1
+#RewriteRule ^fotos/$ \index.php?categoria=fotos
+#RewriteRule ^servicio/$ \index.php?categoria=servicio
+#RewriteRule ^inicio/$ \index.php?categoria=inicio
+#RewriteRule ^contacto/$ \index.php?categoria=contacto
+RewriteRule ^compra/$ \index.php?categoria=compra
+RewriteRule ^servicios/$ \index.php?categoria=servicios
+RewriteRule ^productos/$ \index.php?categoria=productos
+RewriteRule ^contacto/$ \index.php?categoria=contacto
+RewriteRule ^servicio/([1-9]+)/[a-z|1-9|\-]+.html$ \index.php?categoria=servicios&id=$1
+RewriteRule ^categoria/([1-9]+)/[a-z|1-9|\-]+.html$ \index.php?categoria=productos&id=$1&cat=cat
+RewriteRule ^[a-z|1-9|\-]+/producto/([1-9]+)/[a-z|1-9|\-]+.html$ \index.php?categoria=productos&id=$1&cat=pro
+RewriteRule ^mapa/$ \index.php?categoria=mapa
+#RewriteRule ^acero-inoxidable/acero-perfiles-chapas/comprar-metal.html$ \index.php?categoria=acero-inoxidable&dummie
+#RewriteRule ^aluminio-puertas-ventanas-perfiles-rejas/puertas-aluminio.html$ \index.php?categoria=aluminio&dummie
+#RewriteRule ^bateria-electrica/auto-notebook-moto-12V.html$ \index.php?categoria=baterias&dummie
+#RewriteRule ^bronce-placas-perfiles/bronce.html$ \index.php?categoria=bronce&dummie
+#RewriteRule ^chatarra-volquetes-contenedores/compra-chatarra-hierro-acero-cobre-bronce.html$ \index.php?categoria=chatarra&dummie
+#RewriteRule ^cobre-chapas-perfiles-cables/compra-cobre.html$ \index.php?categoria=cobre&dummie
+#RewriteRule ^demolicion-casa-edificio-excavacion.html$ \index.php?categoria=demolicion&dummie
+#RewriteRule ^maquinas-herramientes-usadas-industriales.html$ \index.php?categoria=maquinas&dummie
+#RewriteRule ^metales-ferrosos/cobre-aluminio-bronce-plomo.html$ \index.php?categoria=metales&dummie

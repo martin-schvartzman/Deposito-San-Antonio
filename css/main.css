@@ -1,0 +1,120 @@
+*{
+padding:0px;
+margin:0px;
+border:0px;
+}
+
+body{
+background-image:url('/imagenes/bck.png');
+font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+
+#main{
+background-image:url('/imagenes/banner.png');
+/*background-repeat:repeat-y;*/
+width:auto;
+height:150px;
+}
+
+a:link{
+text-decoration:none;
+color:inherit;
+font-size:20px;
+}
+a:visited{
+text-decoration:none;
+color:inherit;
+font-size:20px;
+}
+a:hover{
+text-decoration:none;
+color:inherit;
+font-size:20px;
+}
+
+.borde{
+float:left;
+width:20%;
+background-image:url('/imagenes/opwhite.png');
+height:150px;
+border-bottom:2px solid black;
+}
+
+#content{
+float:left;
+width:60%;
+height:150px;
+border-bottom:2px solid black;
+}
+
+#banner{
+padding:10px;
+}
+
+#cont{
+background-image:url('/imagenes/opblue.png');
+width:60%;
+min-height:400px;
+border-left:2px solid black;
+border-right:2px solid black;
+}
+
+#pie{
+background-color:black;
+min-height:31px;
+padding:10px;
+color:white;
+font-size:15px;
+}
+
+#pie a{
+color:blue;
+}
+
+#botones div{
+padding:3px;
+background-color:black;
+text-align:center;
+color:#ffaa00;
+border-bottom:3px solid #ffaa00;
+float:left;
+height:35px;
+width:15%;
+}
+
+#botones div:hover{
+padding:3px;
+background-color:#ffaa00;
+text-align:center;
+color:black;
+border-bottom:3px solid black;
+float:left;
+height:35px;
+width:15%;
+}
+
+#contacto{
+color:white;
+float:right;
+height:130px;
+width:160px;
+background-image:url('/imagenes/opblue.png');
+}
+
+#botones div#relleno{
+padding:3px;
+background-color:black;
+color:black;
+border-bottom:3px solid #ffaa00;
+float:none;
+width:auto;
+height:37px;
+}
+
+#bs{
+background:url('/imagenes/bs.png') 0 0;
+}
+
+#bs:hover{
+background:url('/imagenes/bs.png') -384px 0;
+}
